@@ -1,0 +1,9 @@
+services:
+  bikes: 
+    build: ./bikes
+    ports:
+      - 8081:8081
+  cars:
+    build: ./cars
+    ports:
+      - 8082:8082
